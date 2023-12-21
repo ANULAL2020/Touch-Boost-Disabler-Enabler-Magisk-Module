@@ -14,7 +14,6 @@ done
 . $MODPATH/function.sh
 perf_service
 disable_perf
-min_cpu_freq
 
 
 
