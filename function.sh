@@ -62,8 +62,9 @@ for AC in $ACS; do
   done
 done
 SMF=`[ "$FILES" ] && cat $FILES`
-}
-
+} 
+msm_performance_disable() {
+write /sys/module/msm_performance/parameters/cpu_min_freq 1:0 2:0 3:0 4:0 5:0 6:0 7:0
 
 
 
